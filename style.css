@@ -1,8 +1,47 @@
-
-h1 {
-color: blue;
+ .text-section {
+    font-size: 1rem;
 }
 
-.Header2 {
-    color: red;
+.text-section div {
+    font-size: 2rem;
 }
+
+button {
+    padding: 2rem 4rem;
+    margin: 20rem;
+    background: none;
+    border: 0.3rem solid salmon;
+    cursor: pointer;
+  
+} 
+
+html,
+body {
+    height:100%;
+}
+
+
+.container {
+   background:red; 
+   width: 80%;
+   height: 80%;
+   margin: auto;
+}
+
+.box1,
+.box2,
+.box3 {
+    width: 20%;
+    height: 20%;
+    background: purple;
+}
+.box2{
+    background: yellow;
+}
+.box3{
+    background: salmon;
+}
+
+.box1{
+    position: absolute;
+} 
